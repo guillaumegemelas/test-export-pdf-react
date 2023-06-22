@@ -5,7 +5,7 @@ import React from "react";
 import html2canvas from "html2canvas";
 
 export default function Button() {
-  //je fais une fonction handleScreenShot qui va contenir ma fct° html2canvas
+  //je fais une fonction handleScreenShot qui va contenir ma fct° html2canvas---
   const handleScreenShot = () => {
     html2canvas(document.querySelector("#capture")).then((canvas) => {
       document.body.appendChild(canvas);
